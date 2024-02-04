@@ -20,7 +20,7 @@ const Auth = () => {
       .put(
         "https://api.chatengine.io/users/",
         { username, secret },
-        { headers: { "Private-Key": "c2f82e63-9978-4c5c-9c17-8b0dec845dc6" } }
+        { headers: { "Private-Key": "934abc66-953d-4654-a6a7-94eaf0325a46" } }
       )
 
       .then((r) => {
